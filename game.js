@@ -85,7 +85,7 @@ const createCard = (character) => {
   const front = createElement('div', 'face front');
   const back = createElement('div', 'face back');
 
-  front.style.backgroundImage = `url('../img/${character}.png')`;
+  front.style.backgroundImage = `url('https://vifmarques.github.io/Memory-Game/img/${character}.png')`;
 
   card.appendChild(front);
   card.appendChild(back);
