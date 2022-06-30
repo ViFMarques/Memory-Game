@@ -26,7 +26,7 @@ const checkEndGame = () => {
   const disabledCards = document.querySelectorAll('.disabled-card');
 
   if (disabledCards.length === 20) {
-    alert('Parabéns, você conseguiu!!!');
+    alert('Congratulations, you won!!!');
   }
 }
 
