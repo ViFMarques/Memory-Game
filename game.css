@@ -1,0 +1,38 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    width: 60%;
+    max-width: 800px;
+    margin: 100px auto;
+}
+.card{
+    aspect-ratio: 3/4;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    transition: all 400ms ease;
+    transform-style: preserve-3d;
+}
+.face{
+width: 100%;
+height: 100%;
+position: absolute;
+background-size: cover;
+background-position: center;
+border-radius: 5px;
+}
+
+.front{
+    transform: rotateY(180deg);
+}
+
+.back{
+    background-image: url(./img/4.jpg); 
+    backface-visibility: hidden;
+}
+
+.reveal-card{
+    transform: rotateY(180deg);
+}
