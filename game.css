@@ -4,7 +4,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-image: url(/img/background.webp);
+    background-image: url(https://github.com/ViFMarques/Memory-Game/blob/main/img/background.webp);
     background-size: cover;
     min-height: 100vh;
     align-items: center;
