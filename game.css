@@ -4,7 +4,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-image: url(https://github.com/ViFMarques/Memory-Game/blob/main/img/background.webp);
+    background-image: url(https://vifmarques.github.io/Memory-Game/img/background.webp);
     background-size: cover;
     min-height: 100vh;
     align-items: center;
@@ -21,8 +21,8 @@ header{
     color: #3a3132;
     width: 100%;
     max-width: 800px;
-    padding: 20px;
-    margin: 0 0 20px;
+    padding: 15px;
+    margin: 0 0 15px;
     border-radius: 5px;
 }
 .grid{
